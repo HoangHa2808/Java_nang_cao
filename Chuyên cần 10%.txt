@@ -1,0 +1,24 @@
+Chuyên cần: 10%
+Giữa kỳ: Hoàn thiện bài đánh giá thuyết trình: 20%
+Đồ án + thi cuối kỳ: 80%
+- Làm cá nhân: 
+	Thuyết trình và demo chức năng
+	80% điểm do các bạn sv khác chấm
+- Tham gia và làm đánh giá
+- Java Servlet/JSP Java Spring Boot
+
+Link đk đề tài: tinyurl.com/bdf87aut
+
+Lịch trình báo cáo:
+8h-9h30: Trình bày chủ đề đăng ký
+9h30-10h30: Hỏi đáp
+10h30-11h: Nhận xét, đánh giá và thu phiếu đánh giá
+
+Quy trình báo cáo:
+- Sv báo cáo đề tài đã đăng ký
+- Sv ko báo cáo, chuẩn bị mẫu 1(Mỗi sv 1 bản); trong khi bạn báo cáo thì tập trung nghe
+- Cuối buổi báo cáo các sv ko báo cáo làm đánh giá theo mẫu 1. Sau đó gửi lại cho sv báo cáo
+- SV báo cáo dựa vào các mẫu 1 thu thập thống kê kết quả theo mẫu 2
+- Nộp mẫu 1 và mẫu 2 vào buổi sau
++ Mẫu 1: tinyurl.com/2p8rnwar Họ tên_Mẫu1
++ Mẫu 2: tinyurl.com/4p3fsnue
