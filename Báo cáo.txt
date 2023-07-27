@@ -1,0 +1,15 @@
+Trong phần Demo này sẽ demo cách tạo ra Stream trong Java và thực hiện 1 số thao tác hiển thị các giá trị trong Stream.
+
+- Trước hết chúng ta sẽ tạo ra 1 danh sách các số thì ta sử dụng lớp List với mỗi phần tử giá trị của các phần tử có kiểu số Integer, để khởi tạo danh sách chúng ta có thể sử dụng lớp Arrays.asList, nhập các gí trị vào 
+- Sau khi có ds có thể tạo ra stream từ phương thức stream và trả về đối tượng có kiểu dữ liệu là Stream với mỗi phần tử của Stream là kiểu Integer ta có thể gán vào stream như thế này
+- Và có thể hiển thị tất cả các gía trị của các phần tử trong Stream thì trước khi sử dụng Stream ta có thể sử dụng vòng lặp for, với mỗi item nằm trong kist thì có thể gọi thực hiện, hiển thị giá trị của item  
+- Sau đó thực hiện gọi cú pháp của Stream để cho phép hiển thị ra tất cả các giá trị của phần tử , ở trong này chúng ta xác định tên của đối tượng, sau đó sử dụng forEach với mỗi item theo sau thì có thể hiển thị item vs mỗi giá trị có thể thêm vào dấu gạch ngang.
+- Thì chúng ta thấy giá trị của các phần tử sẽ được hiển thị và đây là kết quả của dòng stream.forEach...... với mỗi item nằm trong Stream thì sẽ hiển thị giá trị của item ở trong System out.... 
+
+- Tiếp theo chúng ta sẽ xem xét cách thức tạo ra đối tượng Stream thông qua phương thức of của Stream.
+- Ở trong lớp Employee chúng ta sẽ định nghĩa 2 trường dữ liệu đó là id và name. ta tạo phương thức get set, tạo constructer cho 2 trường đã định nghĩa và tạo constructer ngầm định.
+-> chúng ta đã tạo ra lớp Employyee để mô tả mỗi đối tượng của Stream và có thể sử dụng phương thức forEach của STream để hiển thị ra tất cả các thông tin của Employyee
+- Ở trong lớp CreateObjectStream tạo ra các đối tượng thể hiện của Employee và truyền vào các thông tin như sau.
+- Sau khi có các thông tin thì chúng ta có thể tạo ra 1 luồng, trong này chúng ta có thể sử dụng và mỗi phần tử có kiểu Employee. sau đó gọi thực hiện of thì sẽ truyền vào danh sách các giá trị của mỗi phần tử đc khai báo từ trước 
+- Và hiển thị thông tin của các phần tử hiện có ta sử dụng phương thức forEach với mỗi item nằm trong Stream 
+Và trên đây là demo minh hoạ kích thước là tạo ra đối tượng là thể hiện của lớp Employee và sử dụng phương thức of của lớp Stream để có thể tạo ra luồng mới vá sau đó sử dụng vòng lặp forEach để cho phép duyệt qua mỗi phần tử nằm trong luồng, thực hiện các hành đồng đó là hiển thị thông tin và mỗi bước lặp sẽ hiển thị thông tin Id và Name của mỗi Employee.

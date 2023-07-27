@@ -1,0 +1,28 @@
+Đặt vấn đề: 
+- Trong ví dụ này, mình có một List của đối tượng String. Từ đối tượng List này, mình chuyển nó qua đối tượng của Stream, sau đó dùng đối tượng Stream này để lọc lấy những String bắt đầu bằng ký tự “K”, cuối cùng là in những đối tượng String bắt đầu bằng chữ “K” ra màn hình.
+- Đây là kết quả:
+- Như các bạn thấy thì việc sử dụng Stream cùng với Lambda Expression làm cho việc code của chúng ta dễ hiểu và dễ đọc hơn rất nhiều.
+
+Ở đoạn code trên, chúng ta lấy đối tượng Stream từ đối tượng Collection, các bạn sẽ có cảm giác có vẻ như Stream là một Collection phải không? Không phải vậy đâu các bạn, Stream không phải là một Collection.
+I. Stream là gì?
+- Là một đối tượng mới của Java được giới thiệu từ phiên bản Java 8, giúp cho việc thao tác trên collection và array trở nên dễ dàng và tối ưu hơn.
+- Định nghĩa đơn giản thì Stream là một wrapper(bao bọc) của collection và array. Nó wrap một collection sẵn có và các data source khác để hỗ trợ việc thao tác trên các collection, datasource đó sử dụng Lambda Expression. Vì thế, bạn chỉ cần chỉ định cái bạn muốn làm, còn việc làm như thế nào, Stream sẽ lo cái đó.
+- Cung cấp các phương thức tăng cường xử lý các phần tử bên trong nó với kỹ thuật lập trình Lambda.
+- Các đặc điểm của Stream gồm:
+ + Stream hỗ trợ hoàn hảo cho Lambda Expression.
+ + Stream không chứa các element của collection hay array.
+ + Stream là immutable object (Là một đặc tính của đối tượng nào đó trong lập trình, hiểu nôm na là không thể thay đổi)
+ + Stream không dùng lại được, nghĩa là một khi đã sử dụng nó xong, không thể gọi lại để sử dụng lần nữa.
+ + Không thể dùng index để access các element trong Stream.
+ + Stream hỗ trợ thao tác song song các element trong collection hay array.
+ + Stream hỗ trợ thao tác lazy, khi cần thì thao tác mới được thực hiện. Để làm được điều này, hầu hết các thao tác với Stream đều return lại một Stream mới, giúp tạo một mắt xích bao gồm một loạt các thao tác nhằm thực thi các thao tác đó một cách tối ưu nhất. Mắt xích này còn được gọi là pipeline.
+- Các operations thường dùng:
+ + Duyệt: forEach()
+ + Lọc: filter()
+ + Chuyển đổi: map(), mapToDouble(), mapToInt(), mapToLong()
+ + Tích luỹ giá trị: reduce()
+ + Tổng hợp: sum(), count(), min(), max(), average()
+ + Kiểm tra: allMatch(), anyMatch(), noneMatch(),...
+- Có 2 cách tạo Stream:
+ + Tạo mới Stream từ một collection
+ + Tạo mới Stream từ một array
